@@ -21,3 +21,4 @@ goto end
 
 :builddir_error
 echo ERROR: Could not change to %BUILDDIR%
+exit /b 1
