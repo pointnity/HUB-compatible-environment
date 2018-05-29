@@ -17,3 +17,6 @@ cmake -G %_FB_GEN% %PDIR% %CMAKE_PARAMS% %FB_ROOT%
 @echo off
 
 popd
+goto end
+
+:builddir_error
