@@ -5,3 +5,5 @@ if [ "${GEN}" = "" ]; then
 fi
 
 source ${0%/*}/common.sh "$@"
+
+pushd "$BUILDDIR"
