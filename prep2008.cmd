@@ -1,1 +1,1 @@
-@echo off & setlocal enableextensions enabledelayedexpansion
+@echo 
