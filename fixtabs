@@ -20,3 +20,8 @@ do
 done
 for FILE in $MMFILES
 do
+    echo "Expanding $FILE..."
+    expand -t 4 $FILE > ${FILE}_
+    rm -v $FILE
+    mv -v ${FILE}_ $FILE
+done
