@@ -10,3 +10,6 @@ do
     expand -t 4 $FILE > ${FILE}_
     rm -v $FILE
     mv -v ${FILE}_ $FILE
+done
+for FILE in $CPPFILES
+do
