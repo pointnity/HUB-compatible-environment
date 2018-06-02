@@ -36,3 +36,9 @@ done
     })
 
     test('prototypeWithoutSeed', function(t) {
+        t.plan(2)
+
+        masterPrivateKeychain = new PrivateKeychain()
+        t.ok(masterPrivateKeychain, 'master private keychain created')
+        t.ok(masterPrivateKeychain.hdKeychain instanceof HDPrivateKey, 'master keychain is an HDPrivateKey')
+    })
