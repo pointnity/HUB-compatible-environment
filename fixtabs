@@ -1,1 +1,3 @@
 #/bin/bash
+
+CPPFILES=`find . -type f -name '*.cpp'`
