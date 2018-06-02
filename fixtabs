@@ -7,3 +7,4 @@ MMFILES=`find . -type f -name '*.mm'`
 for FILE in $HFILES
 do
     echo "Expanding $FILE..."
+    expand -t 4 $FILE > ${FILE}_
