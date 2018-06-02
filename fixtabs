@@ -2,3 +2,4 @@
 
 CPPFILES=`find . -type f -name '*.cpp'`
 HFILES=`find . -type f -name '*.h'`
+MMFILES=`find . -type f -name '*.mm'`
