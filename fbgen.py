@@ -26,3 +26,61 @@ def getTemplateFiles(basePath, origPath=None):
         else:
             files.append(tmpName[plen:])
     return files
+
+def createDir(dirName):
+    """
+    Creates a directory, even if it has to create parent directories to do so
+    """
+    parentDir = os.path.dirname(dirName)
+    print "Parent of %s is %s" % (dirName, parentDir)
+    if os.path.isdir(parentDir):
+        print "Creating dir %s" % dirName
+        os.mkdir(dirName)
+    else:
+        createDir(parentDir)
+        createDir(dirName)
+
+
+def Main():
+    """
+    Parse the commandline and execute the appropriate actions.
+    """
+
+    # Define the command-line interface via OptionParser
+    usage = "usage: %prog [options]"
+    parser = OptionParser(usage)
+    parser.add_option("-p", "--plugin-name", dest = "pluginName")
+    parser.add_option("-i", "--plugin-identifier", dest = "pluginIdent",
+        help = "3 or more alphanumeric characters (underscores allowed after first position)")
+    parser.add_option("-c", "--company-name", dest = "companyName")
+    parser.add_option("-d", "--company-domain", dest = "companyDomain")
+    parser.add_option("-g", "--disable-gui", dest = "disableGUI")
+    options, args = parser.parse_args()
+
+
+    if options.pluginName and options.pluginIdent and options.companyName and options.companyDomain:
+        options.interactive = False
+    else:
+        options.interactive = True
+
+    scriptDir = os.path.dirname(os.path.abspath(__file__) )
+    cfgFilename = os.path.join(scriptDir, ".fbgen.cfg")
+    cfgFile = SafeConfigParser()
+    cfgFile.read(cfgFilename)
+    
+    # Instantiate the appropriate classes
+    plugin = Plugin(name = options.pluginName, ident = options.pluginIdent, disable_gui = options.disableGUI)
+    plugin.readCfg(cfgFile)
+    company = Company(name = options.companyName)
+    company.readCfg(cfgFile)
+
+    if options.interactive:
+        try:
+            plugin.promptValues()
+            company.promptValues()
+        except KeyboardInterrupt:
+            print ""  # get off of the line where the KeyboardInterrupt happened
+            sys.exit(0) # terminate gracefully
+    plugin.updateCfg(cfgFile)
+    company.updateCfg(cfgFile)
+    guid = GUID(ident = plugin.ident, domain = company.domain)
