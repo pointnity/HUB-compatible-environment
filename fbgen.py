@@ -112,3 +112,39 @@ def Main():
         except:
             print "Unable to create directory", basePath
             sys.exit(1)
+    else:
+        try:
+            os.mkdir(projPath)
+        except:
+            print "Failed to create project directory", projPath
+            sys.exit(1)
+
+    print "\nProcessing templates"
+    srcDir = os.path.join(scriptDir, "fbgen", "src")
+    srcDirLen = len(srcDir) + len(os.path.sep)
+    templateFiles = getTemplateFiles(srcDir)
+    for tpl in templateFiles:
+        try:
+            tplPath, tplFilename = os.path.split(tpl)
+            if tplFilename.startswith("Template"):
+                tplFilename = tplFilename.replace("Template", plugin.ident, 1)
+            if tplPath:
+                filename = os.path.join(projPath, tplPath, tplFilename)
+            else:
+                filename = os.path.join(projPath, tplFilename)
+            dirname = os.path.dirname(filename)
+            if not os.path.isdir(dirname):
+                createDir(dirname)
+            tplFile = os.path.join("fbgen", "src", tpl)
+            print tplFile
+            template = Template(tplFile)
+            f = open(filename, "wb")
+            f.write(template.process(plugin, company, guid, generatedGuids, templateTime))
+            print "  Processed", tpl
+        except:
+            print "  Error processing", tpl
+            raise
+    print "Done. Files placed in", projPath
+
+if __name__ == "__main__":
+    Main()
