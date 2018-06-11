@@ -84,3 +84,31 @@ def Main():
     plugin.updateCfg(cfgFile)
     company.updateCfg(cfgFile)
     guid = GUID(ident = plugin.ident, domain = company.domain)
+
+    # Generate the guids needed by the templates
+    generatedGuids = AttrDictSimple()
+    generatedGuids.GUIDS_TYPELIB        = guid.generate("TYPELIB")
+    generatedGuids.GUIDS_CONTROLIF      = guid.generate("CONTROLIF")
+    generatedGuids.GUIDS_CONTROL        = guid.generate("CONTROL")
+    generatedGuids.GUIDS_JSIF           = guid.generate("JSIF")
+    generatedGuids.GUIDS_JSOBJ          = guid.generate("JSOBJ")
+    generatedGuids.GUIDS_EVTSRC         = guid.generate("EVTSRC")
+    generatedGuids.GUIDS_INSTPROD       = guid.generate("INSTPROD")
+    generatedGuids.GUIDS_INSTUPGR       = guid.generate("INSTUPGR")
+    generatedGuids.GUIDS_companydircomp = guid.generate("companydircomp")
+    generatedGuids.GUIDS_installdircomp = guid.generate("installdircomp")
+
+    # Time-related values used in templates
+    templateTime = AttrDictSimple(YEAR = time.strftime("%Y"))
+
+    # Save configuration for another go
+    cfgFile.write(open(cfgFilename, "wb") )
+
+    # Make sure we can get into the projects directory
+    basePath = os.path.join(scriptDir, "projects")
+    if not os.path.isdir(basePath):
+        try:
+            os.mkdir(basePath)
+        except:
+            print "Unable to create directory", basePath
+            sys.exit(1)
