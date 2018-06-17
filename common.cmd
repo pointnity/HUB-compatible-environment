@@ -16,3 +16,5 @@ set _NPARAM=%~1
 IF /I "%_NPARAM%"=="" goto default_build
 IF /I "%_NPARAM:~0,1%"=="-" goto default_build
 set BUILDDIR=%1
+shift
+set _SHIFTTOK=2
