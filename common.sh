@@ -34,3 +34,17 @@ if [[ "$1" != "" && ! ( "$1" =~ ^- ) ]]; then
         USED_ARGS=2
     fi
 fi
+
+if [ "$PROJDIR" = "" ]; then
+# PROJDIR not set
+    PROJDIR="${RUN_FROM}/projects"
+fi
+
+if [ "$BUILDDIR" = "" ]; then
+# BUILDIR not set
+    if [ "$PROJDIR" = "examples" ]; then
+        BUILDDIR="${RUN_FROM}/buildex"
+    else
+        BUILDDIR="${RUN_FROM}/build"
+    fi
+fi
