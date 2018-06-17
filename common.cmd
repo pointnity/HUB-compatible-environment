@@ -56,3 +56,4 @@ goto finished
 
 :error
 echo "Could not create build directory %BUILDDIR%"
+exit /B 2
