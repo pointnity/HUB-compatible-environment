@@ -63,3 +63,4 @@ echo Using projects in: %PROJDIR%
 echo Generating build files in: %BUILDDIR%
 echo NOTE: The build files in %BUILDDIR% should *NEVER* be modified directly.
 echo When needed, make project changes in cmake files and re-run this script.
+echo   Project-specific cmake files are found in [plugin dir]\CMakeLists.txt and 
