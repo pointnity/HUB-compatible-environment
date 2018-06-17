@@ -52,3 +52,6 @@ set BUILDDIR="%CD%"
 popd > NUL
 
 for /f "tokens=%_SHIFTTOK%*" %%a in ('echo.%*') do set CMAKE_PARAMS=%%b
+goto finished
+
+:error
