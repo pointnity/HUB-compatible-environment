@@ -30,3 +30,7 @@ set BUILDDIR="%RUN_FROM%\build"
 goto finish
 
 :examples
+echo Building examples
+set BUILDDIR="%RUN_FROM%\buildex"
+
+:finish
