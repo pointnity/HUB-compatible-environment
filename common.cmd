@@ -13,3 +13,4 @@ shift
 set _SHIFTTOK=1
 
 set _NPARAM=%~1
+IF /I "%_NPARAM%"=="" goto default_build
