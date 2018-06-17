@@ -40,3 +40,13 @@ exit /B 2
 goto end
 
 :direxists
+REM We need the full path of the directories
+REM This is a hack, but it works
+pushd ""%PROJDIR%"" > NUL
+set PROJDIR="%CD%"
+popd > NUL
+mkdir ""%BUILDDIR%""
+pushd ""%BUILDDIR%"" > NUL
+if %errorlevel% == 1 goto error
+set BUILDDIR="%CD%"
+popd > NUL
