@@ -60,3 +60,4 @@ exit /B 2
 
 :finished
 echo Using projects in: %PROJDIR%
+echo Generating build files in: %BUILDDIR%
