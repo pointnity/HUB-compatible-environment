@@ -48,3 +48,11 @@ if [ "$BUILDDIR" = "" ]; then
         BUILDDIR="${RUN_FROM}/build"
     fi
 fi
+
+check_proj_dir "$PROJDIR"
+PROJDIR=`cd $PROJDIR; pwd`
+
+mkdir -p "$BUILDDIR"
+BUILDDIR=`cd "$BUILDDIR"; pwd`
+
+echo Using projects in: $PROJDIR
