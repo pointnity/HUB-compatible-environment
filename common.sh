@@ -25,3 +25,12 @@ function check_proj_dir()
 
 if [[ "$1" != "" && ! ( "$1" =~ ^- ) ]]; then 
 # $1 not empty and doesn't start with '-'
+    check_proj_dir "$1"
+    PROJDIR="$1"
+    USED_ARGS=1
+    if [[ "$2" != "" && ! ( "$2" =~ ^- ) ]]; then
+    # $2 not empty and doesn't start with '-'
+        BUILDDIR="$2"
+        USED_ARGS=2
+    fi
+fi
