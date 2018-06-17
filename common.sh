@@ -22,3 +22,6 @@ function check_proj_dir()
         exit 1
     fi
 }
+
+if [[ "$1" != "" && ! ( "$1" =~ ^- ) ]]; then 
+# $1 not empty and doesn't start with '-'
