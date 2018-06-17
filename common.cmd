@@ -68,3 +68,4 @@ echo   [plugin dir]\Win\projectDef.cmake.
 echo Note that parameters for cmake should be enclosed in double quotes, e.g. "-DVERBOSE=1"
 
 echo CMAKE parameters: %CMAKE_PARAMS%
+:end
