@@ -55,3 +55,4 @@ for /f "tokens=%_SHIFTTOK%*" %%a in ('echo.%*') do set CMAKE_PARAMS=%%b
 goto finished
 
 :error
+echo "Could not create build directory %BUILDDIR%"
