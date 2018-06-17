@@ -8,3 +8,6 @@ PROJDIR=""
 USED_ARGS=0
 
 function print_usage()
+{
+    echo "usage: $0 [<project dir> [<build dir>]] [<params ...>]"
+}
