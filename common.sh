@@ -11,3 +11,6 @@ function print_usage()
 {
     echo "usage: $0 [<project dir> [<build dir>]] [<params ...>]"
 }
+
+function check_proj_dir()
+{
