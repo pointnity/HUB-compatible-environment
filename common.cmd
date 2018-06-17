@@ -23,3 +23,6 @@ goto finish
 
 :defaults
 set PROJDIR="%RUN_FROM%\projects"
+
+:default_build
+IF /I %PROJDIR%==examples goto examples
