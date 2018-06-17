@@ -56,3 +56,8 @@ mkdir -p "$BUILDDIR"
 BUILDDIR=`cd "$BUILDDIR"; pwd`
 
 echo Using projects in: $PROJDIR
+echo Generating build files in: $BUILDDIR
+echo NOTE: The build files in $BUILDDIR should *NEVER* be modified directly.  Make changes in cmake and re-run this script.
+
+# remove consumed arguments
+shift $USED_ARGS
