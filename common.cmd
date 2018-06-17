@@ -35,3 +35,4 @@ set BUILDDIR="%RUN_FROM%\buildex"
 
 :finish
 IF EXIST %PROJDIR% GOTO direxists
+echo ERROR: Project directory %PROJDIR% does not exist.  usage: prep[ver].cmd [project dir] [build dir]
