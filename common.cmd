@@ -26,3 +26,7 @@ set PROJDIR="%RUN_FROM%\projects"
 
 :default_build
 IF /I %PROJDIR%==examples goto examples
+set BUILDDIR="%RUN_FROM%\build"
+goto finish
+
+:examples
