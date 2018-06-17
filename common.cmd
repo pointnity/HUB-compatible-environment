@@ -18,3 +18,8 @@ IF /I "%_NPARAM:~0,1%"=="-" goto default_build
 set BUILDDIR=%1
 shift
 set _SHIFTTOK=2
+
+goto finish
+
+:defaults
+set PROJDIR="%RUN_FROM%\projects"
