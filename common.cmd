@@ -34,3 +34,4 @@ echo Building examples
 set BUILDDIR="%RUN_FROM%\buildex"
 
 :finish
+IF EXIST %PROJDIR% GOTO direxists
