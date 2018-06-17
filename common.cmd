@@ -66,3 +66,5 @@ echo When needed, make project changes in cmake files and re-run this script.
 echo   Project-specific cmake files are found in [plugin dir]\CMakeLists.txt and 
 echo   [plugin dir]\Win\projectDef.cmake.
 echo Note that parameters for cmake should be enclosed in double quotes, e.g. "-DVERBOSE=1"
+
+echo CMAKE parameters: %CMAKE_PARAMS%
