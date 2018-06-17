@@ -14,3 +14,11 @@ function print_usage()
 
 function check_proj_dir()
 {
+
+    # allow the project dir to be a symlink
+    if [[ !( -d $1 || -L $1 ) ]]; then
+        echo "ERROR: Project directory $1 does not exist."
+        print_usage
+        exit 1
+    fi
+}
