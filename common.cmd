@@ -59,3 +59,4 @@ echo "Could not create build directory %BUILDDIR%"
 exit /B 2
 
 :finished
+echo Using projects in: %PROJDIR%
