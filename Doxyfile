@@ -192,3 +192,6 @@ OPTIMIZE_OUTPUT_FOR_C  = NO
 OPTIMIZE_OUTPUT_JAVA   = NO
 
 # Set the OPTIMIZE_FOR_FORTRAN tag to YES if your project consists of Fortran
+# Fortran.
+
+OPTIMIZE_FOR_FORTRAN   = NO
