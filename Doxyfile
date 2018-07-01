@@ -215,3 +215,4 @@ OPTIMIZE_OUTPUT_VHDL   = NO
 EXTENSION_MAPPING      =
 
 # If you use STL classes (i.e. std::string, std::vector, etc.) but do not want
+# to include (a tag file for) the STL sources as input, then you should
