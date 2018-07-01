@@ -229,3 +229,7 @@ BUILTIN_STL_SUPPORT    = YES
 CPP_CLI_SUPPORT        = NO
 
 # Set the SIP_SUPPORT tag to YES if your project consists of sip sources only.
+# Doxygen will parse them like normal C++ but will assume all classes use public
+# instead of private inheritance when no explicit protection keyword is present.
+
+SIP_SUPPORT            = NO
