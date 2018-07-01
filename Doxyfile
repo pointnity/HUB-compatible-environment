@@ -218,3 +218,4 @@ EXTENSION_MAPPING      =
 # to include (a tag file for) the STL sources as input, then you should
 # set this tag to YES in order to let doxygen match functions declarations and
 # definitions whose arguments contain STL classes (e.g. func(std::string); v.s.
+# func(std::string) {}). This also makes the inheritance and collaboration
