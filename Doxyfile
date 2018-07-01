@@ -73,3 +73,7 @@ BRIEF_MEMBER_DESC      = YES
 # the brief description of a member or function before the detailed description.
 # Note: if both HIDE_UNDOC_MEMBERS and BRIEF_MEMBER_DESC are set to NO, the
 # brief descriptions will be completely suppressed.
+
+REPEAT_BRIEF           = YES
+
+# This tag implements a quasi-intelligent brief description abbreviator
