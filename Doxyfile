@@ -77,3 +77,4 @@ BRIEF_MEMBER_DESC      = YES
 REPEAT_BRIEF           = YES
 
 # This tag implements a quasi-intelligent brief description abbreviator
+# that is used to form the text in various listings. Each string
