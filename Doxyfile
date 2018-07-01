@@ -145,3 +145,4 @@ JAVADOC_AUTOBRIEF      = NO
 QT_AUTOBRIEF           = NO
 
 # The MULTILINE_CPP_IS_BRIEF tag can be set to YES to make Doxygen
+# treat a multi-line C++ special comment block (i.e. a block of //! or ///
