@@ -206,3 +206,4 @@ OPTIMIZE_OUTPUT_VHDL   = NO
 # parses. With this tag you can assign which parser to use for a given extension.
 # Doxygen has a built-in mapping, but you can override or extend it using this
 # tag. The format is ext=language, where ext is a file extension, and language
+# is one of the parsers supported by doxygen: IDL, Java, Javascript, CSharp, C,
