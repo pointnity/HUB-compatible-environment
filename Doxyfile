@@ -54,3 +54,4 @@ CREATE_SUBDIRS         = NO
 # information to generate all constant output in the proper language.
 # The default language is English, other supported languages are:
 # Afrikaans, Arabic, Brazilian, Catalan, Chinese, Chinese-Traditional,
+# Croatian, Czech, Danish, Dutch, Esperanto, Farsi, Finnish, French, German,
