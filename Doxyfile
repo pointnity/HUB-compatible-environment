@@ -81,3 +81,4 @@ REPEAT_BRIEF           = YES
 # in this list, if found as the leading text of the brief description, will be
 # stripped from the text and the result after processing the whole list, is
 # used as the annotated text. Otherwise, the brief description is used as-is.
+# If left blank, the following values are used ("$name" is automatically
