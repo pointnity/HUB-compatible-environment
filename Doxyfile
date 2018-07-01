@@ -204,3 +204,4 @@ OPTIMIZE_OUTPUT_VHDL   = NO
 
 # Doxygen selects the parser to use depending on the extension of the files it
 # parses. With this tag you can assign which parser to use for a given extension.
+# Doxygen has a built-in mapping, but you can override or extend it using this
