@@ -83,3 +83,4 @@ REPEAT_BRIEF           = YES
 # used as the annotated text. Otherwise, the brief description is used as-is.
 # If left blank, the following values are used ("$name" is automatically
 # replaced with the name of the entity): "The $name class" "The $name widget"
+# "The $name file" "is" "provides" "specifies" "contains"
