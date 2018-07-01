@@ -141,3 +141,7 @@ JAVADOC_AUTOBRIEF      = NO
 # comment as the brief description. If set to NO, the comments
 # will behave just like regular Qt-style comments (thus requiring
 # an explicit \brief command for a brief description.)
+
+QT_AUTOBRIEF           = NO
+
+# The MULTILINE_CPP_IS_BRIEF tag can be set to YES to make Doxygen
