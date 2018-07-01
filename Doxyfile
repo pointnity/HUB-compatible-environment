@@ -219,3 +219,4 @@ EXTENSION_MAPPING      =
 # set this tag to YES in order to let doxygen match functions declarations and
 # definitions whose arguments contain STL classes (e.g. func(std::string); v.s.
 # func(std::string) {}). This also makes the inheritance and collaboration
+# diagrams that involve STL classes more complete and accurate.
