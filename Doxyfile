@@ -239,3 +239,8 @@ SIP_SUPPORT            = NO
 # will make doxygen replace the get and set methods by a property in the
 # documentation. This will only work if the methods are indeed getting or
 # setting a simple type. If this is not the case, or you want to show the
+# methods anyway, you should set this option to NO.
+
+IDL_PROPERTY_SUPPORT   = NO
+
+# If member grouping is used in the documentation and the DISTRIBUTE_GROUP_DOC
