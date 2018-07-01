@@ -233,3 +233,5 @@ CPP_CLI_SUPPORT        = NO
 # instead of private inheritance when no explicit protection keyword is present.
 
 SIP_SUPPORT            = NO
+
+# For Microsoft's IDL there are propget and propput attributes to indicate getter
