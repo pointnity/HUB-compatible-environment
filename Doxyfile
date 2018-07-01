@@ -121,3 +121,9 @@ STRIP_FROM_PATH        =
 # are normally passed to the compiler using the -I flag.
 
 STRIP_FROM_INC_PATH    =
+
+# If the SHORT_NAMES tag is set to YES, doxygen will generate much shorter
+# (but less readable) file names. This can be useful if your file system
+# doesn't support long names like on DOS, Mac, or CD-ROM.
+
+SHORT_NAMES            = NO
