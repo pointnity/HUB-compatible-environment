@@ -153,3 +153,7 @@ QT_AUTOBRIEF           = NO
 MULTILINE_CPP_IS_BRIEF = NO
 
 # If the INHERIT_DOCS tag is set to YES (the default) then an undocumented
+# member inherits the documentation from any documented member that it
+# re-implements.
+
+INHERIT_DOCS           = YES
