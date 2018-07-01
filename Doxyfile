@@ -157,3 +157,5 @@ MULTILINE_CPP_IS_BRIEF = NO
 # re-implements.
 
 INHERIT_DOCS           = YES
+
+# If the SEPARATE_MEMBER_PAGES tag is set to YES, then doxygen will produce
