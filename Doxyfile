@@ -185,3 +185,4 @@ ALIASES                =
 OPTIMIZE_OUTPUT_FOR_C  = NO
 
 # Set the OPTIMIZE_OUTPUT_JAVA tag to YES if your project consists of Java
+# sources only. Doxygen will then generate output that is more tailored for
