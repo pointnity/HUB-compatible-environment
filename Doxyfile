@@ -66,3 +66,7 @@ OUTPUT_LANGUAGE        = English
 # include brief member descriptions after the members that are listed in
 # the file and class documentation (similar to JavaDoc).
 # Set to NO to disable this.
+
+BRIEF_MEMBER_DESC      = YES
+
+# If the REPEAT_BRIEF tag is set to YES (the default) Doxygen will prepend
