@@ -238,3 +238,4 @@ SIP_SUPPORT            = NO
 # and setter methods for a property. Setting this option to YES (the default)
 # will make doxygen replace the get and set methods by a property in the
 # documentation. This will only work if the methods are indeed getting or
+# setting a simple type. If this is not the case, or you want to show the
