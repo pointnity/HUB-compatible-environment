@@ -216,3 +216,4 @@ EXTENSION_MAPPING      =
 
 # If you use STL classes (i.e. std::string, std::vector, etc.) but do not want
 # to include (a tag file for) the STL sources as input, then you should
+# set this tag to YES in order to let doxygen match functions declarations and
