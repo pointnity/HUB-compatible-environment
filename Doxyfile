@@ -160,3 +160,7 @@ INHERIT_DOCS           = YES
 
 # If the SEPARATE_MEMBER_PAGES tag is set to YES, then doxygen will produce
 # a new page for each member. If set to NO, the documentation of a member will
+
+SEPARATE_MEMBER_PAGES  = YES
+
+# The TAB_SIZE tag can be used to set the number of spaces in a tab.
