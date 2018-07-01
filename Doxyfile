@@ -110,3 +110,9 @@ INLINE_INHERITED_MEMB  = NO
 # the path. The tag can be used to show relative paths in the file list.
 # If left blank the directory from which doxygen is run is used as the
 # path to strip.
+
+STRIP_FROM_PATH        =
+
+# The STRIP_FROM_INC_PATH tag can be used to strip a user-defined part of
+# the path mentioned in the documentation of a class, which tells
+# the reader which header file to include in order to use a class.
