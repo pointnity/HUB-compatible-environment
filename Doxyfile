@@ -208,3 +208,4 @@ OPTIMIZE_OUTPUT_VHDL   = NO
 # tag. The format is ext=language, where ext is a file extension, and language
 # is one of the parsers supported by doxygen: IDL, Java, Javascript, CSharp, C,
 # C++, D, PHP, Objective-C, Python, Fortran, VHDL, C, C++. For instance to make
+# doxygen treat .inc files as Fortran files (default is PHP), and .f files as C
