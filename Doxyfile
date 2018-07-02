@@ -274,3 +274,34 @@ TYPEDEF_HIDES_STRUCT   = NO
 # probably good enough. For larger projects a too small cache size can cause
 # doxygen to be busy swapping symbols to and from disk most of the time
 # causing a significant performance penality.
+# If the system has enough physical memory increasing the cache will improve the
+# performance by keeping more symbols in memory. Note that the value works on
+# a logarithmic scale so increasing the size by one will roughly double the
+# memory usage. The cache size is given by this formula:
+# 2^(16+SYMBOL_CACHE_SIZE). The valid range is 0..9, the default is 0,
+# corresponding to a cache size of 2^16 = 65536 symbols
+
+SYMBOL_CACHE_SIZE      = 0
+
+#---------------------------------------------------------------------------
+# Build related configuration options
+#---------------------------------------------------------------------------
+
+# If the EXTRACT_ALL tag is set to YES doxygen will assume all entities in
+# documentation are documented, even if no documentation was available.
+# Private class members and static file members will be hidden unless
+# the EXTRACT_PRIVATE and EXTRACT_STATIC tags are set to YES
+
+EXTRACT_ALL            = NO
+
+# If the EXTRACT_PRIVATE tag is set to YES all private members of a class
+# will be included in the documentation.
+
+EXTRACT_PRIVATE        = NO
+
+# If the EXTRACT_STATIC tag is set to YES all static members of a file
+# will be included in the documentation.
+
+EXTRACT_STATIC         = YES
+
+# If the EXTRACT_LOCAL_CLASSES tag is set to YES classes (and structs)
