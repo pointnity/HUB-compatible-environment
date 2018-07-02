@@ -251,3 +251,5 @@ IDL_PROPERTY_SUPPORT   = NO
 DISTRIBUTE_GROUP_DOC   = NO
 
 # Set the SUBGROUPING tag to YES (the default) to allow class member groups of
+# the same type (for instance a group of public functions) to be put as a
+# subgroup of that type (e.g. under the Public Functions section). Set it to
