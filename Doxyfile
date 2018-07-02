@@ -272,3 +272,4 @@ TYPEDEF_HIDES_STRUCT   = NO
 # determine which symbols to keep in memory and which to flush to disk.
 # For small to medium size projects (<1000 input files) the default value is
 # probably good enough. For larger projects a too small cache size can cause
+# doxygen to be busy swapping symbols to and from disk most of the time
