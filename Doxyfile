@@ -329,3 +329,4 @@ EXTRACT_ANON_NSPACES   = NO
 # undocumented members of documented classes, files or namespaces.
 # If set to NO (the default) these members will be included in the
 # various overviews, but no documentation section is generated.
+# This option has no effect if EXTRACT_ALL is enabled.
