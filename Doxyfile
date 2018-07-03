@@ -349,3 +349,4 @@ HIDE_FRIEND_COMPOUNDS  = NO
 
 # If the HIDE_IN_BODY_DOCS tag is set to YES, Doxygen will hide any
 # documentation blocks found inside the body of a function.
+# If set to NO (the default) these blocks will be appended to the
