@@ -382,3 +382,7 @@ SHOW_INCLUDE_FILES     = YES
 
 # If the FORCE_LOCAL_INCLUDES tag is set to YES then Doxygen
 # rather than with sharp brackets.
+
+FORCE_LOCAL_INCLUDES   = YES
+
+# If the INLINE_INFO tag is set to YES (the default) then a tag [inline]
