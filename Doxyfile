@@ -376,3 +376,8 @@ HIDE_SCOPE_NAMES       = NO
 
 # If the SHOW_INCLUDE_FILES tag is set to YES (the default) then Doxygen
 # will put a list of the files that are included by a file in the documentation
+# of that file.
+
+SHOW_INCLUDE_FILES     = YES
+
+# If the FORCE_LOCAL_INCLUDES tag is set to YES then Doxygen
