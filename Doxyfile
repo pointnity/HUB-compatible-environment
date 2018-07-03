@@ -344,3 +344,7 @@ HIDE_UNDOC_MEMBERS     = YES
 # friend (class|struct|union) declarations.
 # If set to NO (the default) these declarations will be included in the
 # documentation.
+
+HIDE_FRIEND_COMPOUNDS  = NO
+
+# If the HIDE_IN_BODY_DOCS tag is set to YES, Doxygen will hide any
