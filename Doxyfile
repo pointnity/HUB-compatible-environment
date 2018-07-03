@@ -404,3 +404,4 @@ SORT_BRIEF_DOCS        = NO
 # constructors and destructors are listed first. If set to NO (the default)
 # the constructors will appear in the respective orders defined by
 # SORT_MEMBER_DOCS and SORT_BRIEF_DOCS.
+# This tag will be ignored for brief docs if SORT_BRIEF_DOCS is set to NO
