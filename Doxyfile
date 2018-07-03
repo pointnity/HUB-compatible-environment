@@ -386,3 +386,8 @@ SHOW_INCLUDE_FILES     = YES
 FORCE_LOCAL_INCLUDES   = YES
 
 # If the INLINE_INFO tag is set to YES (the default) then a tag [inline]
+# will sort the (detailed) documentation of file and class members
+# alphabetically by member name. If set to NO the members will appear in
+# declaration order.
+
+SORT_MEMBER_DOCS       = NO
