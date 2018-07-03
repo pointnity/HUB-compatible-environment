@@ -326,3 +326,4 @@ EXTRACT_LOCAL_METHODS  = NO
 EXTRACT_ANON_NSPACES   = NO
 
 # If the HIDE_UNDOC_MEMBERS tag is set to YES, Doxygen will hide all
+# undocumented members of documented classes, files or namespaces.
