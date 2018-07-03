@@ -369,3 +369,4 @@ INTERNAL_DOCS          = NO
 CASE_SENSE_NAMES       = NO
 
 # If the HIDE_SCOPE_NAMES tag is set to NO (the default) then Doxygen
+# will show members with their full class and namespace scopes in the
