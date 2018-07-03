@@ -341,3 +341,6 @@ HIDE_UNDOC_MEMBERS     = YES
 HIDE_UNDOC_MEMBERS     = YES
 
 # If the HIDE_UNDOC_CLASSES tag is set to YES, Doxygen will hide all
+# friend (class|struct|union) declarations.
+# If set to NO (the default) these declarations will be included in the
+# documentation.
