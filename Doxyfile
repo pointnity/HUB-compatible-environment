@@ -461,3 +461,7 @@ ENABLED_SECTIONS       =
 # The appearance of the initializer of individual variables and macros in the
 # documentation can be controlled using \showinitializer or \hideinitializer
 # command in the documentation regardless of this setting.
+
+MAX_INITIALIZER_LINES  = 30
+
+# Set the SHOW_USED_FILES tag to NO to disable the list of files generated
