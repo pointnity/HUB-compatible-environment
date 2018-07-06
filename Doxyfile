@@ -465,3 +465,4 @@ ENABLED_SECTIONS       =
 MAX_INITIALIZER_LINES  = 30
 
 # Set the SHOW_USED_FILES tag to NO to disable the list of files generated
+# at the bottom of the documentation of classes and structs. If set to YES the
