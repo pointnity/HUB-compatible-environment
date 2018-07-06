@@ -503,3 +503,9 @@ FILE_VERSION_FILTER    =
 # by doxygen. The layout file controls the global structure of the generated
 # output files in an output format independent way. The create the layout file
 # that represents doxygen's defaults, run doxygen with the -l option.
+# You can optionally specify a file name after the option, if omitted
+# DoxygenLayout.xml will be used as the name of the layout file.
+
+LAYOUT_FILE            = 
+
+#---------------------------------------------------------------------------
