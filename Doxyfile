@@ -471,3 +471,5 @@ MAX_INITIALIZER_LINES  = 30
 SHOW_USED_FILES        = YES
 
 # If the sources in your project are distributed over multiple directories
+# then setting the SHOW_DIRECTORIES tag to YES will show the directory hierarchy
+# in the documentation. The default is NO.
