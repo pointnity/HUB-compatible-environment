@@ -496,3 +496,8 @@ SHOW_NAMESPACES        = YES
 # the FILE_VERSION_FILTER tag, and <input-file> is the name of an input file
 # provided by doxygen. Whatever the program writes to standard output
 # is used as the file version. See the manual for examples.
+
+FILE_VERSION_FILTER    =
+
+# The LAYOUT_FILE tag can be used to specify a layout file which will be parsed
+# by doxygen. The layout file controls the global structure of the generated
