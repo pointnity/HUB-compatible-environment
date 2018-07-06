@@ -538,3 +538,10 @@ WARN_IF_DOC_ERROR      = YES
 
 # The WARN_NO_PARAMDOC option can be enabled to get warnings for
 # functions that are documented, but have no documentation for their parameters
+# or return value. If set to NO (the default) doxygen will only warn about
+# wrong or incomplete parameter documentation, but not about the absence of
+# documentation.
+
+WARN_NO_PARAMDOC       = NO
+
+# The WARN_FORMAT tag determines the format of the warning messages that
