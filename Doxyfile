@@ -458,3 +458,4 @@ ENABLED_SECTIONS       =
 # the initial value of a variable or macro consists of for it to appear in
 # the documentation. If the initializer consists of more lines than specified
 # here it will be hidden. Use a value of 0 to hide initializers completely.
+# The appearance of the initializer of individual variables and macros in the
