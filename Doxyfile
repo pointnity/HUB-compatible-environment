@@ -444,3 +444,4 @@ GENERATE_TESTLIST      = YES
 GENERATE_BUGLIST       = YES
 
 # The GENERATE_DEPRECATEDLIST tag can be used to enable (YES) or
+# disable (NO) the deprecated list. This list is created by putting
