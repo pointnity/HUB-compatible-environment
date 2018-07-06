@@ -417,3 +417,4 @@ SORT_GROUP_NAMES       = NO
 
 # If the SORT_BY_SCOPE_NAME tag is set to YES, the class list will be
 # sorted by fully-qualified names, including namespaces. If set to
+# NO (the default), the class list will be sorted only by class name,
