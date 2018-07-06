@@ -422,3 +422,7 @@ SORT_GROUP_NAMES       = NO
 # Note: This option is not very useful if HIDE_SCOPE_NAMES is set to YES.
 # Note: This option applies only to the class list, not to the
 # alphabetical list.
+
+SORT_BY_SCOPE_NAME     = NO
+
+# The GENERATE_TODOLIST tag can be used to enable (YES) or
