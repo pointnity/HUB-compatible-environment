@@ -663,3 +663,4 @@ INPUT_FILTER           =
 # Doxygen will compare the file name with each pattern and apply the
 # filter if there is a match.
 # The filters are a list of the form:
+# pattern=filter (like *.cpp=my_cpp_filter). See INPUT_FILTER for further
