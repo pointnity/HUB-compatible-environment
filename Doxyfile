@@ -662,3 +662,4 @@ INPUT_FILTER           =
 # basis.
 # Doxygen will compare the file name with each pattern and apply the
 # filter if there is a match.
+# The filters are a list of the form:
