@@ -670,3 +670,10 @@ INPUT_FILTER           =
 FILTER_PATTERNS        =
 
 # If the FILTER_SOURCE_FILES tag is set to YES, the input filter (if set using
+# INPUT_FILTER) will be used to filter the input files when producing source
+# files to browse (i.e. when SOURCE_BROWSER is set to YES).
+
+FILTER_SOURCE_FILES    = NO
+
+#---------------------------------------------------------------------------
+# configuration options related to source browsing
