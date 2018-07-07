@@ -666,3 +666,7 @@ INPUT_FILTER           =
 # pattern=filter (like *.cpp=my_cpp_filter). See INPUT_FILTER for further
 # info on how filters are used. If FILTER_PATTERNS is empty, INPUT_FILTER
 # is applied to all files.
+
+FILTER_PATTERNS        =
+
+# If the FILTER_SOURCE_FILES tag is set to YES, the input filter (if set using
