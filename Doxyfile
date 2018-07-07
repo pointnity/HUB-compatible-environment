@@ -705,3 +705,4 @@ REFERENCED_BY_RELATION = YES
 
 # If the REFERENCES_RELATION tag is set to YES
 # then for each documented function all documented entities
+# called/used by that function will be listed.
