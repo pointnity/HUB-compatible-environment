@@ -575,3 +575,7 @@ INPUT                  = src/PluginCore/ src/ScriptingCore/ src/PluginAuto/ src/
 # also the default input encoding. Doxygen uses libiconv (or the iconv built
 # into libc) for the transcoding. See http://www.gnu.org/software/libiconv for
 # the list of possible encodings.
+
+INPUT_ENCODING         = UTF-8
+
+# If the value of the INPUT tag contains directories, you can use the
