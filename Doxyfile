@@ -548,3 +548,4 @@ WARN_NO_PARAMDOC       = NO
 # doxygen can produce. The string should contain the $file, $line, and $text
 # tags, which will be replaced by the file and line number from which the
 # warning originated and the warning text. Optionally the format may contain
+# $version, which will be replaced by the version of the file (if it could
