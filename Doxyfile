@@ -547,3 +547,4 @@ WARN_NO_PARAMDOC       = NO
 # The WARN_FORMAT tag determines the format of the warning messages that
 # doxygen can produce. The string should contain the $file, $line, and $text
 # tags, which will be replaced by the file and line number from which the
+# warning originated and the warning text. Optionally the format may contain
