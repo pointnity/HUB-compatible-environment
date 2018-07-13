@@ -850,3 +850,12 @@ HTML_DYNAMIC_SECTIONS  = NO
 # it at startup.
 # See http://developer.apple.com/tools/creatingdocsetswithdoxygen.html
 # for more information.
+
+GENERATE_DOCSET        = NO
+
+# When GENERATE_DOCSET tag is set to YES, this tag determines the name of the
+# feed. A documentation feed provides an umbrella under which multiple
+# documentation sets from a single provider (such as a company or product suite)
+# can be grouped.
+
+DOCSET_FEEDNAME        = "Doxygen generated docs"
