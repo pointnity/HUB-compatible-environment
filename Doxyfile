@@ -825,3 +825,9 @@ HTML_COLORSTYLE_GAMMA  = 80
 # this to NO can help when comparing the output of multiple runs.
 
 HTML_TIMESTAMP         = YES
+
+# If the HTML_ALIGN_MEMBERS tag is set to YES, the members of classes,
+# files or namespaces will be aligned in HTML using tables. If set to
+# NO a bullet list will be used.
+
+HTML_ALIGN_MEMBERS     = YES
