@@ -907,3 +907,11 @@ GENERATE_CHI           = NO
 # If the GENERATE_HTMLHELP tag is set to YES, the CHM_INDEX_ENCODING
 # is used to encode HtmlHelp index (hhk), content (hhc) and project file
 # content.
+
+CHM_INDEX_ENCODING     =
+
+# If the GENERATE_HTMLHELP tag is set to YES, the BINARY_TOC flag
+# controls whether a binary table of contents is generated (YES) or a
+# normal table of contents (NO) in the .chm file.
+
+BINARY_TOC             = NO
