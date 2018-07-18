@@ -1092,3 +1092,15 @@ SERVER_BASED_SEARCH    = NO
 # generate Latex output.
 
 GENERATE_LATEX         = NO
+
+# The LATEX_OUTPUT tag is used to specify where the LaTeX docs will be put.
+# If a relative path is entered the value of OUTPUT_DIRECTORY will be
+# put in front of it. If left blank `latex' will be used as the default path.
+
+LATEX_OUTPUT           = latex
+
+# The LATEX_CMD_NAME tag can be used to specify the LaTeX command name to be
+# invoked. If left blank `latex' will be used as the default command name.
+# Note that when enabling USE_PDFLATEX this option is only used for
+# generating bitmaps for formulas in the HTML output, but not in the
+# Makefile that is written to the output directory.
