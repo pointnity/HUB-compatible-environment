@@ -949,3 +949,12 @@ QHP_VIRTUAL_FOLDER     = doc
 # If QHP_CUST_FILTER_NAME is set, it specifies the name of a custom filter to
 # add. For more information please see
 # http://doc.trolltech.com/qthelpproject.html#custom-filters
+
+QHP_CUST_FILTER_NAME   =
+
+# The QHP_CUST_FILT_ATTRS tag specifies the list of the attributes of the
+# custom filter to add. For more information please see
+# <a href="http://doc.trolltech.com/qthelpproject.html#custom-filters">
+# Qt Help Project / Custom Filters</a>.
+
+QHP_CUST_FILTER_ATTRS  =
