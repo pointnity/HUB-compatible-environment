@@ -988,3 +988,17 @@ GENERATE_ECLIPSEHELP   = NO
 # A unique identifier for the eclipse help plugin. When installing the plugin
 # the directory name containing the HTML and XML files should also have
 # this name.
+
+ECLIPSE_DOC_ID         = org.doxygen.Project
+
+# The DISABLE_INDEX tag can be used to turn on/off the condensed index at
+# top of each HTML page. The value NO (the default) enables the index and
+# the value YES disables it.
+
+DISABLE_INDEX          = NO
+
+# This tag can be used to set the number of enum values (range [0,1..20])
+# that doxygen will group on one line in the generated HTML documentation.
+# Note that a value of 0 will completely suppress the enum values from appearing in the overview section.
+
+ENUM_VALUES_PER_LINE   = 4
