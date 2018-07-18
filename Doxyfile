@@ -1021,3 +1021,10 @@ USE_INLINE_TREES       = NO
 # If the treeview is enabled (see GENERATE_TREEVIEW) then this tag can be
 # used to set the initial width (in pixels) of the frame in which the tree
 # is shown.
+
+TREEVIEW_WIDTH         = 250
+
+# When the EXT_LINKS_IN_WINDOW option is set to YES doxygen will open
+# links to external symbols imported via tag files in a separate window.
+
+EXT_LINKS_IN_WINDOW    = NO
