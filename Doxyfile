@@ -925,3 +925,15 @@ TOC_EXPAND             = NO
 # QHP_VIRTUAL_FOLDER are set, an additional index file will be generated
 # that can be used as input for Qt's qhelpgenerator to generate a
 # Qt Compressed Help (.qch) of the generated HTML documentation.
+
+GENERATE_QHP           = NO
+
+# If the QHG_LOCATION tag is specified, the QCH_FILE tag can
+# be used to specify the file name of the resulting .qch file.
+# The path specified is relative to the HTML output folder.
+
+QCH_FILE               =
+
+# The QHP_NAMESPACE tag specifies the namespace to use when generating
+# Qt Help Project output. For more information please see
+# http://doc.trolltech.com/qthelpproject.html#namespace
