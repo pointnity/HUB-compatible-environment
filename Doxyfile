@@ -1081,3 +1081,14 @@ SEARCHENGINE           = YES
 # based approach is that it scales better to large projects and allows
 # full text search. The disadvantages are that it is more difficult to setup
 # and does not have live searching capabilities.
+
+SERVER_BASED_SEARCH    = NO
+
+#---------------------------------------------------------------------------
+# configuration options related to the LaTeX output
+#---------------------------------------------------------------------------
+
+# If the GENERATE_LATEX tag is set to YES (the default) Doxygen will
+# generate Latex output.
+
+GENERATE_LATEX         = NO
