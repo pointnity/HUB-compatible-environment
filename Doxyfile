@@ -1028,3 +1028,11 @@ TREEVIEW_WIDTH         = 250
 # links to external symbols imported via tag files in a separate window.
 
 EXT_LINKS_IN_WINDOW    = NO
+
+# Use this tag to change the font size of Latex formulas included
+# as images in the HTML documentation. The default is 10. Note that
+# when you change the font size after a successful doxygen run you need
+# to manually remove any form_*.png images from the HTML output directory
+# to force them to be regenerated.
+
+FORMULA_FONTSIZE       = 10
