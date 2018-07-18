@@ -958,3 +958,20 @@ QHP_CUST_FILTER_NAME   =
 # Qt Help Project / Custom Filters</a>.
 
 QHP_CUST_FILTER_ATTRS  =
+
+# The QHP_SECT_FILTER_ATTRS tag specifies the list of the attributes this
+# project's
+# filter section matches.
+# <a href="http://doc.trolltech.com/qthelpproject.html#filter-attributes">
+# Qt Help Project / Filter Attributes</a>.
+
+QHP_SECT_FILTER_ATTRS  =
+
+# If the GENERATE_QHP tag is set to YES, the QHG_LOCATION tag can
+# be used to specify the location of Qt's qhelpgenerator.
+# If non-empty doxygen will try to run qhelpgenerator on the generated
+# .qhp file.
+
+QHG_LOCATION           =
+
+# If the GENERATE_ECLIPSEHELP tag is set to YES, additional index files
