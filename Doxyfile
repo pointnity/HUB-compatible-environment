@@ -1056,3 +1056,12 @@ USE_MATHJAX            = NO
 
 # When MathJax is enabled you need to specify the location relative to the
 # HTML output directory using the MATHJAX_RELPATH option. The destination
+# directory should contain the MathJax.js script. For instance, if the mathjax
+# directory is located at the same level as the HTML output directory, then
+# MATHJAX_RELPATH should be ../mathjax. The default value points to the mathjax.org site, so you can quickly see the result without installing
+# MathJax, but it is strongly recommended to install a local copy of MathJax
+# before deployment.
+
+MATHJAX_RELPATH        = http://www.mathjax.org/mathjax
+
+# When the SEARCHENGINE tag is enabled doxygen will generate a search box
