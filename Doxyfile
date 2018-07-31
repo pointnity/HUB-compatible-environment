@@ -1104,3 +1104,17 @@ LATEX_OUTPUT           = latex
 # Note that when enabling USE_PDFLATEX this option is only used for
 # generating bitmaps for formulas in the HTML output, but not in the
 # Makefile that is written to the output directory.
+
+LATEX_CMD_NAME         = latex
+
+# The MAKEINDEX_CMD_NAME tag can be used to specify the command name to
+# generate index for LaTeX. If left blank `makeindex' will be used as the
+# default command name.
+
+MAKEINDEX_CMD_NAME     = makeindex
+
+# If the COMPACT_LATEX tag is set to YES Doxygen generates more compact
+# LaTeX documents. This may be useful for small projects and may help to
+# save some trees in general.
+
+COMPACT_LATEX          = NO
